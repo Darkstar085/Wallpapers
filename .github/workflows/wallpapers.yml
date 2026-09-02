@@ -1,18 +1,17 @@
-name: Process Mobile Wallpapers
+name: Process Wallpapers
 
 on:
   push:
     branches: ["main"]
     paths:
       - "Mobile/**"
+      - "Desktop/**"
       - "scripts/**"
       - ".github/workflows/wallpapers.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: wallpapers
@@ -21,7 +20,6 @@ concurrency:
 jobs:
   process:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -36,78 +34,76 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade Pillow
 
-      - name: Record original image sizes
+      - name: Record image sizes before optimization
         run: |
           python - <<'PY'
           from pathlib import Path
           exts = {".jpg", ".jpeg", ".png", ".webp", ".avif"}
-          total = 0
-          count = 0
-          for p in Path("Mobile").rglob("*"):
-              if p.is_file() and p.suffix.lower() in exts:
-                  total += p.stat().st_size
-                  count += 1
-          Path("/tmp/original_count").write_text(str(count))
-          Path("/tmp/original_bytes").write_text(str(total))
-          print(f"Original: {count} images, {total:,} bytes")
+          total = count = mobile = desktop = 0
+          for root in (Path("Mobile"), Path("Desktop")):
+              if not root.exists():
+                  continue
+              for p in root.rglob("*"):
+                  if p.is_file() and p.suffix.lower() in exts:
+                      count += 1
+                      total += p.stat().st_size
+                      if root.name == "Mobile":
+                          mobile += 1
+                      else:
+                          desktop += 1
+          Path("/tmp/before_bytes").write_text(str(total))
+          Path("/tmp/before_count").write_text(str(count))
+          Path("/tmp/mobile_count").write_text(str(mobile))
+          Path("/tmp/desktop_count").write_text(str(desktop))
           PY
 
-      - name: Optimize images
+      - name: Optimize Mobile and Desktop wallpapers
         env:
           WEBP_QUALITY: "95"
         run: python scripts/optimize.py
 
-      - name: Calculate optimization savings
+      - name: Rename Mobile and Desktop wallpapers
+        run: python scripts/rename.py
+
+      - name: Calculate optimization statistics
         run: |
           python - <<'PY'
           from pathlib import Path
           exts = {".jpg", ".jpeg", ".png", ".webp", ".avif"}
-          original_count = int(Path("/tmp/original_count").read_text())
-          original_bytes = int(Path("/tmp/original_bytes").read_text())
+          before = int(Path("/tmp/before_bytes").read_text())
+          count = int(Path("/tmp/before_count").read_text())
+          mobile = int(Path("/tmp/mobile_count").read_text())
+          desktop = int(Path("/tmp/desktop_count").read_text())
+          after = sum(
+              p.stat().st_size
+              for root in (Path("Mobile"), Path("Desktop"))
+              if root.exists()
+              for p in root.rglob("*")
+              if p.is_file() and p.suffix.lower() in exts
+          )
+          saved = max(0, before - after)
+          percent = saved / before * 100 if before else 0
 
-          current_bytes = 0
-          current_count = 0
-          for p in Path("Mobile").rglob("*"):
-              if p.is_file() and p.suffix.lower() in exts:
-                  current_bytes += p.stat().st_size
-                  current_count += 1
-
-          saved = max(0, original_bytes - current_bytes)
-          percent = (saved / original_bytes * 100) if original_bytes else 0
-
-          def size(n):
-              units = ["B", "KB", "MB", "GB"]
+          def human(n):
               n = float(n)
-              for unit in units:
-                  if n < 1024 or unit == units[-1]:
+              for unit in ("B", "KB", "MB", "GB", "TB"):
+                  if n < 1024 or unit == "TB":
                       return f"{n:.1f} {unit}"
                   n /= 1024
 
-          summary = (
-              f"Images processed: {original_count}\n"
-              f"Size: {size(original_bytes)} → {size(current_bytes)}\n"
-              f"Saved: {size(saved)} ({percent:.1f}%)"
-          )
-          Path("/tmp/optimization_summary").write_text(summary)
-          print(summary)
-          with open("/tmp/optimization_summary_env", "w") as f:
-              f.write(f"OPT_COUNT={original_count}\n")
-              f.write(f"OPT_BEFORE={size(original_bytes)}\n")
-              f.write(f"OPT_AFTER={size(current_bytes)}\n")
-              f.write(f"OPT_SAVED={size(saved)}\n")
+          with open("/tmp/optimization_env", "w") as f:
+              f.write(f"OPT_COUNT={count}\n")
+              f.write(f"OPT_BEFORE={human(before)}\n")
+              f.write(f"OPT_AFTER={human(after)}\n")
+              f.write(f"OPT_SAVED={human(saved)}\n")
               f.write(f"OPT_PERCENT={percent:.1f}%\n")
+              f.write(f"OPT_MOBILE={mobile}\n")
+              f.write(f"OPT_DESKTOP={desktop}\n")
+          print(f"{count} images: {human(before)} -> {human(after)}; saved {human(saved)} ({percent:.1f}%)")
           PY
-          cat /tmp/optimization_summary_env >> "$GITHUB_ENV"
+          cat /tmp/optimization_env >> "$GITHUB_ENV"
 
-      # Disabled by default: content understanding requires an AI model.
-      # Run manually with:
-      #   python scripts/rename.py --dry-run
-      # before enabling automatic renaming.
-      #
-      # - name: Rename images
-      #   run: python scripts/rename.py
-
-      - name: Generate API
+      - name: Generate Mobile API
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_SHA: ${{ github.sha }}
@@ -117,14 +113,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Mobile api
+          git add Mobile Desktop api
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: optimize mobile wallpapers" -m "$(cat <<EOF
+            git commit -m "chore: optimize and rename wallpapers" -m "$(cat <<EOF
           $OPT_COUNT images processed
           $OPT_BEFORE → $OPT_AFTER
           Saved $OPT_SAVED ($OPT_PERCENT)
+
+          Mobile: $OPT_MOBILE images
+          Desktop: $OPT_DESKTOP images
+
+          Mobile wallpapers are included in the API.
+          Desktop wallpapers are optimized and renamed only.
           EOF
           )"
             git push

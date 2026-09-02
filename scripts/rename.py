@@ -4,46 +4,46 @@ from pathlib import Path
 from PIL import Image
 import argparse, re
 
-ROOT = Path("Mobile")
-EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+ROOTS = [Path("Mobile"), Path("Desktop")]
+EXTS = {".jpg", ".jpeg", ".png", ".webp", ".avif"}
 
-def slug(s: str) -> str:
-    s = re.sub(r"[_\-]+", " ", s)
-    s = re.sub(r"\s+", " ", s).strip().lower()
-    s = re.sub(r"[^a-z0-9 ]+", "", s)
-    return re.sub(r"\s+", "-", s) or "wallpaper"
+def slug(value):
+    value = re.sub(r"[_-]+", " ", value)
+    value = re.sub(r"\s+", " ", value).strip().lower()
+    value = re.sub(r"[^a-z0-9 ]+", "", value)
+    return re.sub(r"\s+", "-", value) or "wallpaper"
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true")
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
 
-    counters = {}
-    for path in ROOT.rglob("*"):
-        if not path.is_file() or path.suffix.lower() not in EXTS:
+    for root in ROOTS:
+        if not root.exists():
             continue
-        try:
-            with Image.open(path) as im:
-                w, h = im.size
-        except Exception:
-            continue
+        counters = {}
+        for path in sorted(root.rglob("*")):
+            if not path.is_file() or path.suffix.lower() not in EXTS:
+                continue
+            try:
+                with Image.open(path) as im:
+                    width, height = im.size
+            except Exception:
+                continue
 
-        category = path.parent.name
-        base = f"{slug(category)}-{w}x{h}"
-        counters[base] = counters.get(base, 0) + 1
-        n = counters[base]
-        new_name = f"{base}-{n:03d}{path.suffix.lower()}"
-        target = path.with_name(new_name)
+            category = path.parent.name if path.parent != root else root.name
+            base = f"{slug(category)}-{width}x{height}"
+            counters[base] = counters.get(base, 0) + 1
+            target = path.with_name(f"{base}-{counters[base]:03d}{path.suffix.lower()}")
 
-        if target == path:
-            continue
-        if target.exists():
-            print(f"skip (exists): {target}")
-            continue
+            if target == path or target.exists():
+                if target.exists() and target != path:
+                    print(f"skip (target exists): {target}")
+                continue
 
-        print(f"{path} -> {target}")
-        if not args.dry_run:
-            path.rename(target)
+            print(f"{path} -> {target}")
+            if not args.dry_run:
+                path.rename(target)
 
 if __name__ == "__main__":
     main()

@@ -4,49 +4,44 @@ from pathlib import Path
 from PIL import Image
 import os
 
-ROOT = Path("Mobile")
+ROOTS = [Path("Mobile"), Path("Desktop")]
 QUALITY = int(os.getenv("WEBP_QUALITY", "95"))
 METHOD = int(os.getenv("WEBP_METHOD", "6"))
-EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+EXTS = {".jpg", ".jpeg", ".png"}
 
-def optimize(path: Path) -> bool:
-    if path.suffix.lower() == ".webp":
-        return False
+stats = {"processed": 0, "converted": 0}
 
+def optimize(path):
+    before = path.stat().st_size
     out = path.with_suffix(".webp")
-    if out.exists():
-        return False
-
     try:
         with Image.open(path) as im:
-            has_alpha = "A" in im.getbands()
             kwargs = {"method": METHOD}
-            if has_alpha:
-                # Keep transparent wallpapers lossless.
+            if "A" in im.getbands():
                 kwargs["lossless"] = True
             else:
-                kwargs["quality"] = QUALITY
-                kwargs["lossless"] = False
-
+                kwargs.update(lossless=False, quality=QUALITY)
             im.save(out, "WEBP", **kwargs)
 
-        if out.stat().st_size < path.stat().st_size:
+        optimized = out.stat().st_size
+        stats["processed"] += 1
+        if optimized < before:
             path.unlink()
-            print(f"optimized: {path} -> {out} ({out.stat().st_size:,} bytes)")
-            return True
-
-        out.unlink()
-        print(f"kept original (WebP larger): {path}")
-        return False
+            stats["converted"] += 1
+            print(f"optimized: {path} -> {out}")
+        else:
+            out.unlink()
+            print(f"kept: {path} (WebP was larger)")
     except Exception as exc:
         if out.exists():
             out.unlink()
         print(f"ERROR {path}: {exc}")
-        return False
 
-changed = 0
-for path in ROOT.rglob("*"):
-    if path.is_file() and path.suffix.lower() in EXTS:
-        changed += optimize(path)
+for root in ROOTS:
+    if root.exists():
+        for path in root.rglob("*"):
+            if path.is_file() and path.suffix.lower() in EXTS:
+                optimize(path)
 
-print(f"Done. Optimized {changed} image(s).")
+for key, value in stats.items():
+    print(f"STAT_{key.upper()}={value}")
