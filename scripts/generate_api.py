@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from PIL import Image
-import hashlib, json, os, re
+import hashlib, json, os, re, subprocess
 from datetime import datetime, timezone
 
 ROOT = Path("Mobile")
@@ -14,6 +14,21 @@ def stable_id(path):
 
 def title(stem):
     return re.sub(r"\s+", " ", re.sub(r"[-_]+", " ", stem)).strip().title()
+
+def added_at(path):
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--follow", "--format=%cI", "--", str(path)],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        value = result.stdout.strip()
+        if value:
+            return value
+    except (OSError, subprocess.CalledProcessError):
+        pass
+    return datetime.now(timezone.utc).isoformat()
 
 repo = os.getenv("GITHUB_REPOSITORY")
 items = []
@@ -39,11 +54,12 @@ if ROOT.exists():
             "height": height,
             "format": path.suffix.lower().lstrip("."),
             "path": rel,
-            "url": url
+            "url": url,
+            "added_at": added_at(path),
         })
 
 payload = {
-    "version": 1,
+    "version": 2,
     "generated_at": datetime.now(timezone.utc).isoformat(),
     "count": len(items),
     "wallpapers": items
