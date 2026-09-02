@@ -18,14 +18,14 @@ def title(stem):
 def added_at(path):
     try:
         result = subprocess.run(
-            ["git", "log", "-1", "--follow", "--format=%cI", "--", str(path)],
+            ["git", "log", "--follow", "--format=%cI", "--reverse", "--", str(path)],
             check=True,
             capture_output=True,
             text=True,
         )
-        value = result.stdout.strip()
+        value = result.stdout.strip().splitlines()
         if value:
-            return value
+            return value[0]
     except (OSError, subprocess.CalledProcessError):
         pass
     return datetime.now(timezone.utc).isoformat()
