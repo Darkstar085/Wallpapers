@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generated_at": "2026-09-02T09:04:51.649173+00:00",
+  "version": 2,
+  "generated_at": "2026-09-02T17:35:23.130068+00:00",
   "count": 145,
   "wallpapers": [
     {
@@ -11,7 +11,8 @@
       "height": 2048,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1024x2048-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1024x2048-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1024x2048-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "1c2224ee806a",
@@ -21,7 +22,8 @@
       "height": 2560,
       "format": "png",
       "path": "Mobile/Abstract/abstract-1440x2560-001.png",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1440x2560-001.png"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1440x2560-001.png",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "248849d83550",
@@ -31,7 +33,8 @@
       "height": 3184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1472x3184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1472x3184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1472x3184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "be55875d9905",
@@ -41,7 +44,8 @@
       "height": 3500,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1500x3500-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1500x3500-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1500x3500-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5c9d4a2f659a",
@@ -51,7 +55,8 @@
       "height": 3840,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1728x3840-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1728x3840-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1728x3840-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "c171bd7d76c9",
@@ -61,7 +66,8 @@
       "height": 3840,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1728x3840-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1728x3840-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1728x3840-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3826f7108c14",
@@ -71,7 +77,8 @@
       "height": 4096,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-1890x4096-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1890x4096-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-1890x4096-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "2c7c33ddfbca",
@@ -81,7 +88,8 @@
       "height": 3600,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-2024x3600-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2024x3600-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2024x3600-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3b1c23688f6f",
@@ -91,7 +99,8 @@
       "height": 3660,
       "format": "jpg",
       "path": "Mobile/Abstract/abstract-2048x3660-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2048x3660-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2048x3660-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "222ae842f4f0",
@@ -101,7 +110,8 @@
       "height": 4790,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-2160x4790-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2160x4790-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2160x4790-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "c2454c7d5972",
@@ -111,7 +121,8 @@
       "height": 4627,
       "format": "png",
       "path": "Mobile/Abstract/abstract-2603x4627-001.png",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-001.png"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-001.png",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "4a2c91e48552",
@@ -121,7 +132,8 @@
       "height": 4627,
       "format": "png",
       "path": "Mobile/Abstract/abstract-2603x4627-002.png",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-002.png"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-002.png",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "dec4e7bdc947",
@@ -131,7 +143,8 @@
       "height": 4627,
       "format": "png",
       "path": "Mobile/Abstract/abstract-2603x4627-003.png",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-003.png"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-2603x4627-003.png",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "02f3efdab945",
@@ -141,7 +154,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x5760-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x5760-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x5760-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "7222c5004b10",
@@ -151,7 +165,8 @@
       "height": 5761,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x5761-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x5761-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x5761-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "15fe3fc4e474",
@@ -161,7 +176,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "84fd429227b5",
@@ -171,7 +187,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x7184-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "881bfcd8c917",
@@ -181,7 +198,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x7184-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "57a5ac38e9e2",
@@ -191,7 +209,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x7184-004.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-004.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-004.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "222171c04d78",
@@ -201,7 +220,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-3240x7184-005.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-005.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-3240x7184-005.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "529ec2cffdfd",
@@ -211,7 +231,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Abstract/abstract-4320x7680-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-4320x7680-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-4320x7680-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3118bbf79fc3",
@@ -221,7 +242,8 @@
       "height": 1308,
       "format": "jpg",
       "path": "Mobile/Abstract/abstract-736x1308-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-736x1308-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Abstract/abstract-736x1308-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "f175775e7afb",
@@ -231,7 +253,8 @@
       "height": 1414,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1000x1414-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1000x1414-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1000x1414-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e85f01947969",
@@ -241,7 +264,8 @@
       "height": 1511,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1041x1511-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1041x1511-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1041x1511-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "306889ff0f63",
@@ -251,7 +275,8 @@
       "height": 2070,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1080x2070-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1080x2070-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1080x2070-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "2641fd32ced1",
@@ -261,7 +286,8 @@
       "height": 3256,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1464x3256-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1464x3256-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1464x3256-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "27b3316d57eb",
@@ -271,7 +297,8 @@
       "height": 2616,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1470x2616-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1470x2616-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1470x2616-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "2c211e1108bd",
@@ -281,7 +308,8 @@
       "height": 2048,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1536x2048-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2048-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2048-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "732bde5b2a91",
@@ -291,7 +319,8 @@
       "height": 2048,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1536x2048-002.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2048-002.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2048-002.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "1eeab10656fd",
@@ -301,7 +330,8 @@
       "height": 2704,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1536x2704-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2704-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1536x2704-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e2156caf29bf",
@@ -311,7 +341,8 @@
       "height": 4094,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1842x4094-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1842x4094-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1842x4094-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "12ccc8dbd9c8",
@@ -321,7 +352,8 @@
       "height": 2995,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-1999x2995-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1999x2995-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-1999x2995-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e6734187f20b",
@@ -331,7 +363,8 @@
       "height": 4096,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2305x4096-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2305x4096-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2305x4096-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "83b7d80e38e3",
@@ -341,7 +374,8 @@
       "height": 4643,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2310x4643-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2310x4643-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2310x4643-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "cd382e898912",
@@ -351,7 +385,8 @@
       "height": 3541,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2508x3541-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2508x3541-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2508x3541-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5974fbfe2167",
@@ -361,7 +396,8 @@
       "height": 4448,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2660x4448-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2660x4448-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2660x4448-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "734fdf6ae6de",
@@ -371,7 +407,8 @@
       "height": 4096,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2731x4096-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2731x4096-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2731x4096-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "755df41a8e3b",
@@ -381,7 +418,8 @@
       "height": 5000,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2856x5000-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2856x5000-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2856x5000-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "482b104d7513",
@@ -391,7 +429,8 @@
       "height": 4093,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2894x4093-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2894x4093-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2894x4093-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "39fb7be97951",
@@ -401,7 +440,8 @@
       "height": 4592,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2936x4592-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2936x4592-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2936x4592-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5f4e4922303c",
@@ -411,7 +451,8 @@
       "height": 4160,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2944x4160-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2944x4160-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2944x4160-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b0fe67b2c70c",
@@ -421,7 +462,8 @@
       "height": 4904,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2944x4904-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2944x4904-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2944x4904-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "d2e31e2cf1e4",
@@ -431,7 +473,8 @@
       "height": 4303,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-2950x4303-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2950x4303-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-2950x4303-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "28aeb4f8fa85",
@@ -441,7 +484,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b2c58a2d5aab",
@@ -451,7 +495,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3240x7184-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3240x7184-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3240x7184-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "55896efb9c1a",
@@ -461,7 +506,8 @@
       "height": 5500,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3403x5500-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3403x5500-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3403x5500-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "7107c7d86243",
@@ -471,7 +517,8 @@
       "height": 5800,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3480x5800-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3480x5800-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3480x5800-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "13ed9993af3d",
@@ -481,7 +528,8 @@
       "height": 5376,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3584x5376-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9ac176b723e1",
@@ -491,7 +539,8 @@
       "height": 5376,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3584x5376-002.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-002.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-002.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "abb28787175b",
@@ -501,7 +550,8 @@
       "height": 5376,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3584x5376-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3584x5376-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b20efd8f1f81",
@@ -511,7 +561,8 @@
       "height": 4800,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3616x4800-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3616x4800-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3616x4800-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "62156c0d5c56",
@@ -521,7 +572,8 @@
       "height": 4800,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3620x4800-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3620x4800-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3620x4800-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "4cdb9311e26e",
@@ -531,7 +583,8 @@
       "height": 3672,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-3702x3672-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3702x3672-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-3702x3672-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "7acb6d55b8fd",
@@ -541,7 +594,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-4320x7680-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "4017402d1fdc",
@@ -551,7 +605,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-4320x7680-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "a62246fd301b",
@@ -561,7 +616,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-4320x7680-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4320x7680-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "f1be8e9505e2",
@@ -571,7 +627,8 @@
       "height": 3328,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-4608x3328-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4608x3328-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-4608x3328-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b09faeb283c3",
@@ -581,7 +638,8 @@
       "height": 2880,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-5120x2880-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-5120x2880-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-5120x2880-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "43ecbda0039d",
@@ -591,7 +649,8 @@
       "height": 4080,
       "format": "webp",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-6067x4080-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-6067x4080-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-6067x4080-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e35b698081aa",
@@ -601,7 +660,8 @@
       "height": 1280,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-720x1280-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-720x1280-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-720x1280-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5f6f4ec72a25",
@@ -611,7 +671,8 @@
       "height": 1307,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-736x1307-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1307-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1307-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "f1062690c3b5",
@@ -621,7 +682,8 @@
       "height": 1307,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-736x1307-002.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1307-002.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1307-002.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e2791b2281c7",
@@ -631,7 +693,8 @@
       "height": 1472,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-736x1472-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1472-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1472-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b3c6b2953097",
@@ -641,7 +704,8 @@
       "height": 1472,
       "format": "jpg",
       "path": "Mobile/Anime & Cartoon/anime-cartoon-736x1472-002.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1472-002.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Anime & Cartoon/anime-cartoon-736x1472-002.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "f8d031a51c56",
@@ -651,7 +715,8 @@
       "height": 3200,
       "format": "webp",
       "path": "Mobile/Black/black-1440x3200-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-1440x3200-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-1440x3200-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "88748fb240a1",
@@ -661,7 +726,8 @@
       "height": 4440,
       "format": "webp",
       "path": "Mobile/Black/black-2050x4440-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-2050x4440-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-2050x4440-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "feed4f363ed7",
@@ -671,7 +737,8 @@
       "height": 4742,
       "format": "webp",
       "path": "Mobile/Black/black-2160x4742-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-2160x4742-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-2160x4742-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "30ac3d467010",
@@ -681,7 +748,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Black/black-3240x5760-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "ededfcde3685",
@@ -691,7 +759,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Black/black-3240x5760-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b9eda37e404e",
@@ -701,7 +770,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Black/black-3240x5760-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "6173c65609b1",
@@ -711,7 +781,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Black/black-3240x5760-004.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-004.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-004.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e8af13a186e5",
@@ -721,7 +792,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Black/black-3240x5760-005.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-005.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x5760-005.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3dd47744e2a5",
@@ -731,7 +803,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Black/black-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3e1e0984efe3",
@@ -741,7 +814,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Black/black-4320x7680-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e092cb8146d3",
@@ -751,7 +825,8 @@
       "height": 7680,
       "format": "jpg",
       "path": "Mobile/Black/black-4320x7680-002.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-002.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-002.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "d0b30dd3e144",
@@ -761,7 +836,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Black/black-4320x7680-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "56f6afccdfe5",
@@ -771,7 +847,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Black/black-4320x7680-004.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-004.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-4320x7680-004.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "11cfeecf347f",
@@ -781,7 +858,8 @@
       "height": 1520,
       "format": "webp",
       "path": "Mobile/Black/black-720x1520-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-720x1520-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Black/black-720x1520-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "39a86ec0549c",
@@ -791,7 +869,8 @@
       "height": 2560,
       "format": "webp",
       "path": "Mobile/Cars & Bikes/cars-bikes-1440x2560-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-1440x2560-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-1440x2560-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "fd327bb3643f",
@@ -801,7 +880,8 @@
       "height": 3072,
       "format": "webp",
       "path": "Mobile/Cars & Bikes/cars-bikes-2048x3072-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-2048x3072-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-2048x3072-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "507764219ab7",
@@ -811,7 +891,8 @@
       "height": 1635,
       "format": "jpg",
       "path": "Mobile/Cars & Bikes/cars-bikes-736x1635-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-736x1635-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Cars & Bikes/cars-bikes-736x1635-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "68e04f645a3d",
@@ -821,7 +902,8 @@
       "height": 2436,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-1080x2436-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1080x2436-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1080x2436-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "72a7feae2370",
@@ -831,7 +913,8 @@
       "height": 2560,
       "format": "png",
       "path": "Mobile/Flowers/flowers-1440x2560-001.png",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1440x2560-001.png"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1440x2560-001.png",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "48fb43710617",
@@ -841,7 +924,8 @@
       "height": 3728,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-1720x3728-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1720x3728-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1720x3728-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "1b015d8312a3",
@@ -851,7 +935,8 @@
       "height": 3838,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-1730x3838-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1730x3838-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1730x3838-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "0260f45bd241",
@@ -861,7 +946,8 @@
       "height": 4096,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-1847x4096-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1847x4096-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-1847x4096-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "d04fb218a0e5",
@@ -871,7 +957,8 @@
       "height": 3840,
       "format": "jpg",
       "path": "Mobile/Flowers/flowers-2160x3840-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2160x3840-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2160x3840-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "45558a656714",
@@ -881,7 +968,8 @@
       "height": 3840,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-2163x3840-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2163x3840-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2163x3840-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "54304bde3810",
@@ -891,7 +979,8 @@
       "height": 3120,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-2213x3120-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2213x3120-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2213x3120-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "bafb97cc0696",
@@ -901,7 +990,8 @@
       "height": 4800,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-2744x4800-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2744x4800-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-2744x4800-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5e18bf798c87",
@@ -911,7 +1001,8 @@
       "height": 4000,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3000x4000-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3000x4000-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3000x4000-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "78440cb96a59",
@@ -921,7 +1012,8 @@
       "height": 4000,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3000x4000-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3000x4000-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3000x4000-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "8f5430776f0d",
@@ -931,7 +1023,8 @@
       "height": 4080,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3072x4080-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3072x4080-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3072x4080-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3327483285ba",
@@ -941,7 +1034,8 @@
       "height": 5759,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x5759-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x5759-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x5759-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "738e6825ecf1",
@@ -951,7 +1045,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "bdd9a6aa7e2c",
@@ -961,7 +1056,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "595488aa7299",
@@ -971,7 +1067,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "4881094d7c61",
@@ -981,7 +1078,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-004.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-004.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-004.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9aeb48204f29",
@@ -991,7 +1089,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-005.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-005.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-005.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "160ba6462fdd",
@@ -1001,7 +1100,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3240x7184-006.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-006.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3240x7184-006.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5ed7d83cb29f",
@@ -1011,7 +1111,8 @@
       "height": 5616,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3744x5616-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3744x5616-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3744x5616-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "766ee9094759",
@@ -1021,7 +1122,8 @@
       "height": 5120,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-3840x5120-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3840x5120-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-3840x5120-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "7b27a3648767",
@@ -1031,7 +1133,8 @@
       "height": 6000,
       "format": "jpg",
       "path": "Mobile/Flowers/flowers-4000x6000-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-4000x6000-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-4000x6000-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "006d333db0b5",
@@ -1041,7 +1144,8 @@
       "height": 5304,
       "format": "webp",
       "path": "Mobile/Flowers/flowers-7172x5304-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-7172x5304-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-7172x5304-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "cdb58c00d13d",
@@ -1051,7 +1155,8 @@
       "height": 2160,
       "format": "jpg",
       "path": "Mobile/Flowers/flowers-972x2160-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-972x2160-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Flowers/flowers-972x2160-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "166fc129a1db",
@@ -1061,7 +1166,8 @@
       "height": 2400,
       "format": "jpg",
       "path": "Mobile/Gods/gods-1080x2400-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1080x2400-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1080x2400-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "08f9ff0aa7fc",
@@ -1071,7 +1177,8 @@
       "height": 2354,
       "format": "webp",
       "path": "Mobile/Gods/gods-1206x2354-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1206x2354-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1206x2354-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "a9e32215c6e4",
@@ -1081,7 +1188,8 @@
       "height": 2558,
       "format": "webp",
       "path": "Mobile/Gods/gods-1440x2558-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x2558-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x2558-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "8d12515edb38",
@@ -1091,7 +1199,8 @@
       "height": 2569,
       "format": "webp",
       "path": "Mobile/Gods/gods-1440x2569-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x2569-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x2569-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "3a45771bb502",
@@ -1101,7 +1210,8 @@
       "height": 3200,
       "format": "webp",
       "path": "Mobile/Gods/gods-1440x3200-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x3200-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1440x3200-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b92052941e50",
@@ -1111,7 +1221,8 @@
       "height": 3416,
       "format": "webp",
       "path": "Mobile/Gods/gods-1920x3416-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1920x3416-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-1920x3416-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "ae24f312a6a7",
@@ -1121,7 +1232,8 @@
       "height": 3264,
       "format": "webp",
       "path": "Mobile/Gods/gods-2350x3264-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-2350x3264-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-2350x3264-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5759d6747564",
@@ -1131,7 +1243,8 @@
       "height": 4096,
       "format": "webp",
       "path": "Mobile/Gods/gods-4096x4096-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-4096x4096-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-4096x4096-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "28853d06bb2b",
@@ -1141,7 +1254,8 @@
       "height": 1308,
       "format": "jpg",
       "path": "Mobile/Gods/gods-736x1308-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-736x1308-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Gods/gods-736x1308-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b698c2f1a3a3",
@@ -1151,7 +1265,8 @@
       "height": 3200,
       "format": "webp",
       "path": "Mobile/Misc/misc-1440x3200-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-1440x3200-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-1440x3200-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5376dc099255",
@@ -1161,7 +1276,8 @@
       "height": 4624,
       "format": "webp",
       "path": "Mobile/Misc/misc-2068x4624-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-2068x4624-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-2068x4624-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "a15fddd5f6f7",
@@ -1171,7 +1287,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x5760-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x5760-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x5760-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9ffcf4dd8f84",
@@ -1181,7 +1298,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "df9d8b3677c1",
@@ -1191,7 +1309,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "aa2bab573f2b",
@@ -1201,7 +1320,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "947d85c53d3b",
@@ -1211,7 +1331,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-004.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-004.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-004.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "a3bf2442ea6a",
@@ -1221,7 +1342,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-005.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-005.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-005.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "5b7947e5a90e",
@@ -1231,7 +1353,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Misc/misc-3240x7184-006.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-006.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-3240x7184-006.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "c4efe2ecae3d",
@@ -1241,7 +1364,8 @@
       "height": 3024,
       "format": "webp",
       "path": "Mobile/Misc/misc-4032x3024-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-4032x3024-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Misc/misc-4032x3024-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b05141ee0c1c",
@@ -1251,7 +1375,8 @@
       "height": 3200,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1472x3200-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1472x3200-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1472x3200-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "03cc84fad80a",
@@ -1261,7 +1386,8 @@
       "height": 3296,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1472x3296-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1472x3296-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1472x3296-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "1a4339069a81",
@@ -1271,7 +1397,8 @@
       "height": 2688,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1536x2688-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1536x2688-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1536x2688-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "07758b5a3968",
@@ -1281,7 +1408,8 @@
       "height": 2752,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1536x2752-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1536x2752-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1536x2752-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "165619e2a9dc",
@@ -1291,7 +1419,8 @@
       "height": 4096,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1846x4096-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1846x4096-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1846x4096-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "7f5699846245",
@@ -1301,7 +1430,8 @@
       "height": 4096,
       "format": "jpg",
       "path": "Mobile/Scenery/scenery-1890x4096-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1890x4096-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1890x4096-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b4bfa36ea405",
@@ -1311,7 +1441,8 @@
       "height": 4159,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-1920x4159-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1920x4159-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-1920x4159-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "97f7e477b91f",
@@ -1321,7 +1452,8 @@
       "height": 3984,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-2984x3984-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-2984x3984-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-2984x3984-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "79a6a9adcb9c",
@@ -1331,7 +1463,8 @@
       "height": 4608,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-3072x4608-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3072x4608-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3072x4608-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e7c9b4702c80",
@@ -1341,7 +1474,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-3240x5760-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x5760-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x5760-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "88addf3cb771",
@@ -1351,7 +1485,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-3240x7184-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x7184-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x7184-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9b22ef8ca57e",
@@ -1361,7 +1496,8 @@
       "height": 7184,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-3240x7184-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x7184-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-3240x7184-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "c0cb9374bf6a",
@@ -1371,7 +1507,8 @@
       "height": 3000,
       "format": "jpg",
       "path": "Mobile/Scenery/scenery-4000x3000-001.jpg",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-4000x3000-001.jpg"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-4000x3000-001.jpg",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "23a5af7ca102",
@@ -1381,7 +1518,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Scenery/scenery-4320x7680-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-4320x7680-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Scenery/scenery-4320x7680-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "bc67bc6b0afa",
@@ -1391,7 +1529,8 @@
       "height": 1920,
       "format": "webp",
       "path": "Mobile/Space/space-1440x1920-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-1440x1920-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-1440x1920-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9c9e0578957c",
@@ -1401,7 +1540,8 @@
       "height": 3840,
       "format": "webp",
       "path": "Mobile/Space/space-2160x3840-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-2160x3840-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-2160x3840-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "e2881b50b331",
@@ -1411,7 +1551,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Space/space-3240x5760-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-3240x5760-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-3240x5760-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "9cb487313c23",
@@ -1421,7 +1562,8 @@
       "height": 5760,
       "format": "webp",
       "path": "Mobile/Space/space-3240x5760-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-3240x5760-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-3240x5760-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "32097da8f161",
@@ -1431,7 +1573,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Space/space-4320x7680-001.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-001.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-001.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "b511c2c4e90c",
@@ -1441,7 +1584,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Space/space-4320x7680-002.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-002.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-002.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     },
     {
       "id": "759892148958",
@@ -1451,7 +1595,8 @@
       "height": 7680,
       "format": "webp",
       "path": "Mobile/Space/space-4320x7680-003.webp",
-      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-003.webp"
+      "url": "https://raw.githubusercontent.com/Darkstar085/Wallpapers/main/Mobile/Space/space-4320x7680-003.webp",
+      "added_at": "2026-09-02T03:30:03Z"
     }
   ]
 }
