@@ -16,7 +16,6 @@ def title(stem):
     return re.sub(r"\s+", " ", re.sub(r"[-_]+", " ", stem)).strip().title()
 
 repo = os.getenv("GITHUB_REPOSITORY")
-sha = os.getenv("GITHUB_SHA")
 items = []
 
 if ROOT.exists():
@@ -31,7 +30,7 @@ if ROOT.exists():
 
         rel = path.as_posix()
         category = path.parent.name if path.parent != ROOT else "Miscellaneous"
-        url = f"https://raw.githubusercontent.com/{repo}/{sha}/{rel}" if repo and sha else rel
+        url = f"https://raw.githubusercontent.com/{repo}/main/{rel}" if repo else rel
         items.append({
             "id": stable_id(rel),
             "title": title(path.stem),
