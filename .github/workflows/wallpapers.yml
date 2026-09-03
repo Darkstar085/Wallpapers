@@ -62,7 +62,7 @@ jobs:
           WEBP_QUALITY: "95"
         run: python scripts/optimize.py
 
-      - name: Rename Mobile and Desktop wallpapers
+      - name: Generate friendly wallpaper names
         run: python scripts/rename.py
 
       - name: Calculate optimization statistics
@@ -117,7 +117,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: optimize and rename wallpapers" -m "$(cat <<EOF
+            git commit -m "chore: optimize and name wallpapers" -m "$(cat <<EOF
           $OPT_COUNT images processed
           $OPT_BEFORE → $OPT_AFTER
           Saved $OPT_SAVED ($OPT_PERCENT)
@@ -125,8 +125,9 @@ jobs:
           Mobile: $OPT_MOBILE images
           Desktop: $OPT_DESKTOP images
 
+          Wallpaper filenames are assigned category-aware friendly names.
           Mobile wallpapers are included in the API.
-          Desktop wallpapers are optimized and renamed only.
+          Desktop wallpapers are optimized and named only.
           EOF
           )"
             git push

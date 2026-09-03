@@ -13,7 +13,10 @@ def stable_id(path):
     return hashlib.sha1(path.encode()).hexdigest()[:12]
 
 def title(stem):
-    return re.sub(r"\s+", " ", re.sub(r"[-_]+", " ", stem)).strip().title()
+    value = re.sub(r"[-_]+", " ", stem)
+    value = re.sub(r"\b\d{2,5}\s*[xX×]\s*\d{2,5}\b", "", value)
+    value = re.sub(r"\s+", " ", value).strip(" -_")
+    return value.title() or "Wallpaper"
 
 def added_at(path):
     try:
