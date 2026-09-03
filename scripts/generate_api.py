@@ -37,27 +37,6 @@ def added_at(path):
     return datetime.now(timezone.utc).isoformat()
 
 
-def dominant_colors(image, limit=6):
-    """Return representative colors as uppercase #RRGGBB values, most common first."""
-    rgb = image.convert("RGB")
-    rgb.thumbnail((96, 96), Image.Resampling.LANCZOS)
-    quantized = rgb.quantize(colors=limit, method=Image.Quantize.MEDIANCUT)
-    palette = quantized.getpalette()
-    colors = quantized.getcolors(maxcolors=limit)
-    if not colors or not palette:
-        return []
-
-    result = []
-    for count, palette_index in sorted(colors, reverse=True):
-        offset = palette_index * 3
-        color = "#{:02X}{:02X}{:02X}".format(
-            palette[offset], palette[offset + 1], palette[offset + 2]
-        )
-        if color not in result:
-            result.append(color)
-    return result
-
-
 repo = os.getenv("GITHUB_REPOSITORY")
 items = []
 
@@ -68,7 +47,6 @@ if ROOT.exists():
         try:
             with Image.open(path) as im:
                 width, height = im.size
-                colors = dominant_colors(im)
         except Exception:
             continue
 
@@ -84,14 +62,13 @@ if ROOT.exists():
             "height": height,
             "format": path.suffix.lower().lstrip("."),
             "file_size_bytes": path.stat().st_size,
-            "colors": colors,
             "path": rel,
             "url": url,
             "added_at": added_at(path),
         })
 
 payload = {
-    "version": 3,
+    "version": 4,
     "generated_at": datetime.now(timezone.utc).isoformat(),
     "count": len(items),
     "wallpapers": items
