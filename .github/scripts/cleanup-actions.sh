@@ -28,7 +28,9 @@ while IFS=$'\t' read -r id created name; do
     if (( DRY_RUN )); then
       echo "Would delete run $id: $name"
     else
-      gh run delete "$id" --repo Darkstar085/Wallpapers
+      if ! gh run delete "$id" --repo Darkstar085/Wallpapers; then
+        echo "Run $id is already gone or could not be deleted; continuing."
+      fi
     fi
   fi
 done < <(python -c 'import json,sys; [(print(r["databaseId"],r["createdAt"],r["name"],sep="\t")) for r in json.load(sys.stdin)]' <<< "$runs")
@@ -36,5 +38,7 @@ done < <(python -c 'import json,sys; [(print(r["databaseId"],r["createdAt"],r["n
 if (( DRY_RUN )); then
   echo "Would clear GitHub Actions caches after run cleanup."
 else
-  gh cache delete --all --repo Darkstar085/Wallpapers
+  if ! gh cache delete --all --repo Darkstar085/Wallpapers; then
+    echo "No Actions caches found or caches could not be deleted; continuing."
+  fi
 fi
