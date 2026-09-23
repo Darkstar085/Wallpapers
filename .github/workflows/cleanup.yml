@@ -1,0 +1,25 @@
+name: Cleanup Actions
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Keep workflow runs newer than this many days"
+        required: false
+        default: "30"
+
+permissions:
+  actions: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Cleanup old runs and caches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DAYS: ${{ inputs.days }}
+        run: bash .github/scripts/cleanup-actions.sh --days "$DAYS" --execute

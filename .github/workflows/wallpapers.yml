@@ -1,0 +1,60 @@
+name: Maintain Wallpapers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Mobile/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  maintain:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout pushed commit
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Process wallpapers
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            python .github/scripts/wallpapers.py repair
+          else
+            python .github/scripts/wallpapers.py process
+          fi
+
+      - name: Amend pushed commit
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          author_name="$(git show -s --format='%an' "$GITHUB_SHA")"
+          author_email="$(git show -s --format='%ae' "$GITHUB_SHA")"
+          git add -A Mobile api/wallpapers.json README.md
+
+          if git diff --cached --quiet; then
+            echo "No repository changes required."
+            exit 0
+          fi
+
+          git commit --amend --author="$author_name <$author_email>" -F .wallpaper-commit-message
+          git push --force-with-lease origin HEAD:main
