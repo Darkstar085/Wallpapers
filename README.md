@@ -118,7 +118,7 @@ api/
 └── wallpapers.json
 ```
 
-
+<!-- WALLPAPER-STATS:START -->
 ## 📊 Collection Stats
 
 | Folder | Files | Size |
@@ -129,13 +129,15 @@ api/
 | Mobile/Black | 14 | 19.5 MB |
 | Mobile/Cars | 5 | 4.5 MB |
 | Mobile/Flowers | 24 | 36.5 MB |
-| Mobile/Gods | 10 | 3.8 MB |
+| Mobile/Gods | 12 | 5.6 MB |
 | Mobile/Landscape | 3 | 6.4 MB |
 | Mobile/Minimal | 4 | 5.8 MB |
 | Mobile/Misc | 10 | 26.0 MB |
 | Mobile/Scenery | 14 | 30.8 MB |
 | Mobile/Space | 7 | 25.0 MB |
-| **Total** | **164** | **246.3 MB** |
+| **Total** | **166** | **248.1 MB** |
+
+<!-- WALLPAPER-STATS:END -->
 
 ## 📄 License
 
